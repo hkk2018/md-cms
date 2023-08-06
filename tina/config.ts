@@ -33,6 +33,12 @@ export default defineConfig({
             required: true,
           },
           {
+            label: 'Tags',
+            name: 'tags',
+            type: 'string',
+            list: true,
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
